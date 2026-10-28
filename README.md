@@ -3,6 +3,8 @@
 Vision AI modules for drone and CCTV video, developed by **SPILab**.
 Each module runs a custom-trained YOLOv8 model on live RTSP streams or still images.
 
+![System architecture](docs/architecture.png)
+
 | Module | What it detects | Interface | Default port |
 |---|---|---|---|
 | [fire-smoke-detection](fire-smoke-detection/) | Fire, smoke | PyQt5 desktop dashboard | – |
