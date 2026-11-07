@@ -3,6 +3,10 @@
 Vision AI modules for drone and CCTV video, developed by **SPILab**.
 Each module runs a custom-trained YOLOv8 model on live RTSP streams or still images.
 
+![Tiny-object and tiny-person detection demo](docs/demo-tiny-object-person.gif)
+
+*Tiny-object (Car / Truck / Bus) and tiny-person detection on aerial frames, `conf=0.4`, `imgsz=1280`, CPU. Sample footage: [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) public dataset.*
+
 ![System architecture](docs/architecture.png)
 
 | Module | What it detects | Interface | Default port |
